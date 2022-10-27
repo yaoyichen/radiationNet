@@ -1,5 +1,0 @@
-train size:160, test size:160
-{'Total': 993028, 'Trainable': 993028}
-start training...
-epoch:0, elapse time:0.012286901473999023
-feature shape:torch.Size([10, 98, 34, 57]), target shape:torch.Size([10, 98, 4, 57]), auxis shape:torch.Size([10, 98, 1, 57])
