@@ -1,4 +1,4 @@
-python main_fullyear.py \
+python main.py \
 --main_folder "FullYear" \
 --sub_folder "FullYear_V01" \
 --train_file "./dataset/fullyear_trainset_240_10_useful.nc" \
