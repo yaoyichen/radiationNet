@@ -1,5 +1,5 @@
 
-## Physics-Incorporated Framework for Radiative Transfer
+## Overall Architecture
 This repo is the implementation  of the article "Physics-Incorporated Framework for Emulating Atmospheric Radiative Transfer and the Related Network Study".
 We propose a physics-incorporated framework for the radiative transfer DL model, in which the physical relationship between fluxes and heating rates is encoded as a layer of the network. It is also found that the prediction accuracy was improved with the physic-incorporated layer. In addition, we trained and compared various types of deep learning model architectures, including fully connected (FC) neural networks (NNs), convolutional-based NNs (CNNs), bidirectional recurrent-based NNs (RNNs), transformer-based NNs, and neural operator networks, respectively.
 
@@ -10,20 +10,14 @@ We propose a physics-incorporated framework for the radiative transfer DL model,
 
 
 
-<p align="center">
-<img align="middle" src="./figs/NetworkStructure.png" alt="framework" width="500" height="650" />
-</p>
 
-
-##
+## Code Structure
 The code description is as follows: 
-- main program: main_fullyear.py
-- executable script：./script/current/runscript.py
-- network structure folder: ./models/
-- utils fodler: ./utils/
+- main program: main.py
+- ./models/  network structure folder
+- ./utils/   utils folder
+- ./checkpoints/  saved checkpoints 
 
-
-Checkpoints models are save in: ./checkpoints
 
 
 ##  How to train the model 
