@@ -5,7 +5,7 @@ We propose a physics-incorporated framework for the radiative transfer DL model,
 
 
 <p align="center">
-<img align="middle" src="./figs/framework.png" alt="framework" width="500" height="240" />
+<img align="middle" src="./figs/framework.png" alt="framework" width="500" height="280" />
 </p>
 
 
@@ -13,10 +13,12 @@ We propose a physics-incorporated framework for the radiative transfer DL model,
 
 ## Code Structure
 The code description is as follows: 
+
 - main program: main.py
 - ./models/  network structure folder
 - ./utils/   utils folder
 - ./checkpoints/  saved checkpoints 
+- ./climart  extra utils that helps to train on the climart dataset, not required in this paper
 
 
 
